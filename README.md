@@ -2,7 +2,24 @@
 
 A menu-driven, command-line event scheduler written in C11. Events are stored in an array-backed **binary min-heap** keyed on start time, so the next upcoming event is always available in O(1) and inserts/removals run in O(log n).
 
-Built as part of the EduSkills projects.
+---
+
+## About the Project
+
+This is an **Event Planner** project assigned by **EduSkills** as part of the **Data Structures with C** internship, which I completed this month (October 2026).
+
+**Goal of the internship project:** apply core data structure concepts in C to build a practical, real-world application.
+
+**What this project demonstrates:**
+
+- Implementing a **priority queue using a binary min-heap** from scratch
+- **Dynamic memory management** (`malloc`, `realloc`, `free`) with leak checking via Valgrind
+- **Modular C design** using header files and separate translation units
+- **Time and date handling** with `time.h` (`mktime`, `localtime`, `strftime`)
+- **Robust console input handling** and validation
+- Using a **Makefile** for building and testing
+
+**Skills gained:** C programming, heaps and priority queues, algorithm complexity analysis, memory management, debugging with Valgrind.
 
 ---
 
